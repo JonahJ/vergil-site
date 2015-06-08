@@ -1,0 +1,27 @@
+.btn-vergil {
+  background-color: #701C45;
+  border-color: #A02661;
+  color: #FFFFFF !important;
+}
+.btn-vergil:hover,
+.btn-vergil:focus,
+.btn-vergil:active,
+.btn-vergil.active {
+  background-color: #A02661;
+  border-color: #701C45;
+}
+.btn-vergil.disabled:hover,
+.btn-vergil.disabled:focus,
+.btn-vergil.disabled:active,
+.btn-vergil.disabled.active,
+.btn-vergil[disabled]:hover,
+.btn-vergil[disabled]:focus,
+.btn-vergil[disabled]:active,
+.btn-vergil[disabled].active,
+fieldset[disabled] .btn-vergil:hover,
+fieldset[disabled] .btn-vergil:focus,
+fieldset[disabled] .btn-vergil:active,
+fieldset[disabled] .btn-vergil.active {
+  background-color: #A02661;
+  border-color: #701C45;
+}
